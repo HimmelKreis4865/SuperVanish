@@ -1,14 +1,13 @@
-# choose a activate Message
-ActivateMessage: "§l§eSV §r§7> §aYou activated Supervanish!"
-# a Message when you activated vanish for other
-ActivateOtherMessage: "§l§eSV §r§7> §aYou activated Supervanish for this player!"
-# And a Message when your vanish was activated by other
-ActivateByOtherMessage: "§l§eSV §r§7> §aYour Supervanish has been activated!"
-# And now a message for deactivating 
-DeactivateMessage: "§l§eSV §r§7> §cYou deactivated Supervanish!"
-# Now a message when you deactivated vanish for other
-DeactivateOtherMessage: "§l§eSV §r§7-> §cYou deactivated Supervanish for this player!"
-# And for the case when your vanish was deactivated by other
-DeactivateByOtherMessage: "§l§eSV §r§7> §cYour vanish has been deactivated!"
-# So, last thing: if a player want's to change vanish mode for an offline / invalid player 
-InvalidPlayer: "§l§eSV §r§7> §4Error! Player not found!"
+# Use  §  - for color codes and  \n  - for next line
+activate:
+  self: "§l§eSV §r§7> §aYou activated vanish mode"
+  other: "§l§eSV §r§7> §aYou activated vanish mode of Player §e{player}"
+  byother: "§l§eSV §r§7> §aYour vanish mode has been activated by Player §e{player}"
+
+deactivate:
+  self: "§l§eSV §r§7> §cYou deactivated vanish mode"
+  other: "§l§eSV §r§7> §cYou deactivated vanish mode of Player §e{player}"
+  byother: "§l§eSV §r§7> §cYour vanish mode has been deactivated by Player §e{player}"
+
+NoPermission: "§l§eSV §r§7> §cYou do not have the permission to execute this command!"
+InvalidPlayer: "§l§eSV §r§7> §4Player not found!"
