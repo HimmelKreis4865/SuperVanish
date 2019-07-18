@@ -17,7 +17,7 @@ or write an issue!
 
 Command | Permission | Description
 -|-|-
-/sv | sv.use.self, sv.use, sv.admin | Go / leave vanish mode
+/sv | sv.self, sv.use, sv.admin | Go / leave vanish mode
 /sv <player> | sv.use, sv.admin | Change player's visiblity
 
 If you want to see other players that are in vanish, you need `sv.see`
