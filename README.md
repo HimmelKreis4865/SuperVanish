@@ -10,14 +10,15 @@ or write an issue!
 > - With this vanish plugin it's possible to hide your blocks in the hand. 
 > - You can see your skin on PC with `F5` (it's default) or on the Paper doll
 > - with a permission, you can see players in vanish
-> - Custom enable/disable messages
+> - Every message is custom
 > - good support
 
 # Commands:
 
 Command | Permission | Description
 -|-|-
-/sv on|off | sv.use | Go / leave vanish mode
+/sv | sv.use.self, sv.use, sv.admin | Go / leave vanish mode
+/sv <player> | sv.use, sv.admin | Change player's visiblity
 
-If you want to see other players you need `sv.see`
+If you want to see other players that are in vanish, you need `sv.see`
 or to use `/sv` and see players you need `sv.admin`
