@@ -3,6 +3,7 @@
 Supervanish is a very new vanish plugin. 
 It want's to be the best vanish plugin, so please give me ideas on my discord ( https://discord.gg/bhZSrGJ )
 or write an issue!
+**I will fix it in next time! So please download only the oldest Build!**
 
 # Features
 
